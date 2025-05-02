@@ -6,7 +6,7 @@ Pylean is a Python implementation of the [Lean4 theorem prover](https://lean-lan
 
 **Current Status: Beta**
 
-Pylean is feature-complete with all planned functionality implemented! The project has advanced to beta status with the following components fully functional:
+The project has advanced to beta status with the following components fully functional:
 
 - Complete Kernel module with expressions, environments, type checking, and inductive types
 - Advanced parser supporting the full Lean4 syntax
