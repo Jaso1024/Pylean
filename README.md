@@ -6,7 +6,7 @@ Pylean is a Python implementation of the [Lean4 theorem prover](https://lean-lan
 
 **Current Status: Beta**
 
-Pylean is now feature-complete with all planned functionality implemented! The project has advanced to beta status with the following components fully functional:
+Pylean is feature-complete with all planned functionality implemented! The project has advanced to beta status with the following components fully functional:
 
 - Complete Kernel module with expressions, environments, type checking, and inductive types
 - Advanced parser supporting the full Lean4 syntax
@@ -22,17 +22,11 @@ The project is now ready for general use and feedback from the community.
 
 ## Installation
 
-You can install Pylean directly from PyPI:
-
-```bash
-pip install pylean
-```
-
 For development installation:
 
 ```bash
 # Clone the repository
-git clone https://github.com/example/pylean.git
+git clone https://github.com/yourusername/pylean.git
 cd pylean
 
 # Install in development mode
@@ -203,9 +197,15 @@ pylean/                    # Main package
     └── module.py          # Module implementation
 ```
 
-## Project Roadmap
+## Examples
 
-See the [Implementation Plan](implementation_plan.md) for details.
+The `examples/` directory contains several demonstration files showing various features of Pylean:
+
+- **comprehensive_usage_example.py**: Complete walkthrough of Pylean's capabilities
+- **even_square_theorem.py**: Proves that if x is even, then x² is also even
+- **pattern_matching_demo.py**: Demonstrates pattern matching functionality
+- **tactics_demo.py**: Shows interactive theorem proving with tactics
+- **llvm_compiler_demo.py**: Demonstrates code generation to LLVM
 
 ## Contributing
 
