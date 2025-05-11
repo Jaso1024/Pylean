@@ -4,7 +4,7 @@ Pylean is a Python implementation of the [Lean4 theorem prover](https://lean-lan
 
 ## Project Status
 
-**Current Status: Beta**
+Current Status: Beta
 
 The project has advanced to beta status with the following components fully functional:
 
@@ -26,7 +26,7 @@ For development installation:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/pylean.git
+git clone https://github.com/jaso1024/pylean.git
 cd pylean
 
 # Install in development mode
@@ -115,35 +115,6 @@ This example shows the full capabilities of Pylean, including:
 
 For more examples, see the `examples` directory.
 
-## Features Overview
-
-- **Advanced Pattern Matching**
-  - Exhaustiveness checking for pattern matching
-  - Redundancy detection and elimination
-  - Decision tree generation for efficient pattern matching
-  - Nested pattern handling
-
-- **Tail Call Optimization**
-  - Automatic detection of tail recursive functions
-  - Transformation of tail recursion into efficient loops
-  - Performance optimization for recursive algorithms
-
-- **Foreign Function Interface (FFI)**
-  - Call C functions from Pylean
-  - Pass data between Pylean and C code
-  - Integrate with existing C libraries
-
-- **Type Class System**
-  - Define and use type classes for polymorphism
-  - Instance resolution with priority based selection
-  - Automatic instance derivation for common classes
-
-- **Tactics System**
-  - Interactive theorem proving
-  - Step-by-step proof construction
-  - Proof automation with tactics
-
-## Development Setup
 
 ### Prerequisites
 
@@ -201,16 +172,8 @@ pylean/                    # Main package
 
 The `examples/` directory contains several demonstration files showing various features of Pylean:
 
-- **comprehensive_usage_example.py**: Complete walkthrough of Pylean's capabilities
-- **even_square_theorem.py**: Proves that if x is even, then x² is also even
-- **pattern_matching_demo.py**: Demonstrates pattern matching functionality
-- **tactics_demo.py**: Shows interactive theorem proving with tactics
-- **llvm_compiler_demo.py**: Demonstrates code generation to LLVM
-
-## Contributing
-
-Contributions are welcome! Please open an issue first to discuss any significant changes.
-
-## License
-
-This project is licensed under the Apache License 2.0 - see the LICENSE file for details. 
+- comprehensive_usage_example.py: Complete walkthrough of Pylean's capabilities
+- even_square_theorem.py: Proves that if x is even, then x² is also even
+- pattern_matching_demo.py: Demonstrates pattern matching functionality
+- tactics_demo.py: Shows interactive theorem proving with tactics
+- llvm_compiler_demo.py: Demonstrates code generation to LLVM
